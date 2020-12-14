@@ -120,6 +120,15 @@ img {
     font-weight: bold;
 }
 
+.icon-anim {
+    transition: color 0.2s, transform 0.2s;
+}
+
+.icon-anim:hover {
+    color: var(--primary-color);
+    transform: scale(1.2);
+
+}
 
 /* Cloud */
 .cloud .grid {
@@ -219,7 +228,7 @@ i {
     color: #FD1D1D;
 }
 
-.fa-whatsapp:hover {
+.wpp:hover {
     color: #25d366;
 }
 
@@ -256,6 +265,7 @@ i {
     gap: 30px;
     overflow: visible;
 }
+
 
 .contato-form {
     position: relative;
