@@ -402,3 +402,10 @@ i {
         grid-column: 1;
     }
 }
+
+/* Mobile */
+@media(max-width: 500px) {
+    .social {
+        font-size: 10px;
+    }
+}
