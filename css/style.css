@@ -60,6 +60,11 @@ img {
     height: 70px;
 }
 
+.logo,
+.fa-envira {
+    animation: transparency 1s ease-in;
+}
+
 
 
 /* Showcase */
@@ -85,14 +90,14 @@ img {
 }
 
 .showcase-text {
-    animation: slideInFromLeft 1s ease-in;
+    animation: slideInFromRight 0.5s ease-in;
 }
 
 
 /* Stats */
 .stats {
     padding-top: 100px;
-    animation: slideInFromBottom 1s ease-in;
+    animation: slideInFromBottom 0.5s ease-in;
     
 }
 
@@ -306,5 +311,35 @@ i {
 
     100% {
         transform:translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes transparency {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
