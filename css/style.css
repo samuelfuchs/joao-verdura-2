@@ -263,6 +263,8 @@ i {
 
 .contato p {
     margin: 20px 0;
+    display: flex;
+
 }
 
 .contato .grid {
@@ -408,4 +410,21 @@ i {
     .social {
         font-size: 10px;
     }
+
+    .logo,
+    .fa-envira {
+        font-size: 30px;
+    }
+
+    .logo-footer {
+        font-size: 50%;
+    }
+    .contato .grid {
+        display: block;
+    }
+
+    .contato-form {
+        width: auto;
+    }
+
 }
